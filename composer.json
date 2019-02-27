@@ -1,0 +1,31 @@
+{
+  "name": "phpth/process",
+  "description": "批量执行命令",
+  "version": "v1.1.0",
+  "authors": [
+    {
+      "name": "zhangjs",
+      "email": "843960877@qq.com"
+    }
+  ],
+  "type": "package",
+  "homepage": "https://github.com/phpth/process",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php":">=7.1",
+    "ext-posix":"*"
+  },
+  "suggest": {
+    "symfony/pipe": "should install pipeReadAndWrite"
+  },
+  "keywords": [
+    "command",
+    "open command"
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
